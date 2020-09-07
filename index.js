@@ -1,5 +1,5 @@
-const fs = require('fs'),
-const ytdl = require("ytdl-core")
+const fs = require('fs');
+const ytdl = require("ytdl-core");
 const readline = require('readline');
 
 const rl = readline.createInterface({
