@@ -1,6 +1,6 @@
 const fs = require('fs'),
-	  ytdl = require("ytdl-core"),
-	  readline = require('readline');
+      ytdl = require("ytdl-core"),
+      readline = require('readline');
 
 const rl = readline.createInterface({
   input: process.stdin,
