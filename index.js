@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 
-rl.question('Digite uma URL do Youtube:', async (answer) => {
+rl.question('Digite uma URL do Youtube:', (answer) => {
       if(!ytdl.validateURL(answer)) return console.log('URL inválido.')
 
       ytdl(answer).pipe(fs.createWriteStream('video.mp4'));
